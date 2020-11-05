@@ -1,0 +1,6 @@
+slurmjobs_prometheus_exporter_svc_name: "slurmjobs-prometheus-exporter.service"
+slurmjobs_prometheus_exporter_state: started
+slurmjobs_prometheus_exporter_enabled: yes
+
+prometheus_config_dir: /etc/prometheus
+prometheus_cfg_endpoint_dir: "{{ prometheus_config_dir }}/endpoints"

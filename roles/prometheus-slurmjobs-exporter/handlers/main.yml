@@ -1,0 +1,5 @@
+---
+- name: restart slurmjobs-prometheus-exporter
+  service:
+    name: "{{ slurmjobs_prometheus_exporter_svc_name }}"
+    state: restarted
